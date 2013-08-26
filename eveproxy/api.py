@@ -2,6 +2,6 @@
 from core import EveProxyBaseRequestHandler
 
 class calllist(EveProxyBaseRequestHandler):
-    requiredParamaters = ['keyID', 'vCode']
+    requiredParamaters = []
     urlPart = "/api/calllist.xml"
 

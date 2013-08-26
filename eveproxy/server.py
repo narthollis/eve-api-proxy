@@ -2,6 +2,6 @@
 from core import EveProxyBaseRequestHandler
 
 class ServerStatus(EveProxyBaseRequestHandler):
-    requiredParamaters = ['keyID', 'vCode']
+    requiredParamaters = []
     urlPart = "/server/ServerStatus.xml"
 
